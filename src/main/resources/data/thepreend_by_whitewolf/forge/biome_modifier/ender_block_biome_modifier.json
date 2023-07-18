@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "thepreend_by_whitewolf:ender_block",
+  "step": "underground_ores"
+}
