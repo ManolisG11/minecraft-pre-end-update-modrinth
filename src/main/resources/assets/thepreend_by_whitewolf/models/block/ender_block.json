@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thepreend_by_whitewolf:block/enderblock",
+    "up": "thepreend_by_whitewolf:block/enderblock",
+    "north": "thepreend_by_whitewolf:block/enderblock",
+    "east": "thepreend_by_whitewolf:block/enderblock",
+    "south": "thepreend_by_whitewolf:block/enderblock",
+    "west": "thepreend_by_whitewolf:block/enderblock",
+    "particle": "thepreend_by_whitewolf:block/enderingot"
+  },
+  "render_type": "solid"
+}
