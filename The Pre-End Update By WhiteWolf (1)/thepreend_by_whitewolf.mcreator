@@ -1,0 +1,167 @@
+{
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thepreend_by_whitewolf/models/item/test_spawn_egg.json",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/entity/TestEntity.java",
+          "src/main/resources/data/thepreend_by_whitewolf/forge/biome_modifier/test_biome_modifier.json",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/client/renderer/TestRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "ArdaniumIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thepreend_by_whitewolf/models/item/ender_ingot.json",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/item/ArdaniumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thepreend_by_whitewolf/blockstates/ender_block.json",
+          "src/main/resources/assets/thepreend_by_whitewolf/models/item/ender_block.json",
+          "src/main/resources/data/thepreend_by_whitewolf/worldgen/placed_feature/ender_block.json",
+          "src/main/resources/assets/thepreend_by_whitewolf/models/block/ender_block.json",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/block/EnderBlockBlock.java",
+          "src/main/resources/data/thepreend_by_whitewolf/worldgen/configured_feature/ender_block.json",
+          "src/main/resources/data/thepreend_by_whitewolf/forge/biome_modifier/ender_block_biome_modifier.json",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/world/features/ores/EnderBlockFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderBlockCraftingRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_block_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/ender_block_crafting_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ThePreEnd",
+      "type": "dimension",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_pre_end",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thepreend_by_whitewolf/models/block/the_pre_end_portal_ew.json",
+          "src/main/resources/assets/thepreend_by_whitewolf/models/item/the_pre_end.json",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/world/teleporter/ThePreEndTeleporter.java",
+          "src/main/resources/assets/thepreend_by_whitewolf/models/block/the_pre_end_portal_ns.json",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/block/ThePreEndPortalBlock.java",
+          "src/main/resources/data/thepreend_by_whitewolf/dimension_type/the_pre_end.json",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/world/teleporter/ThePreEndPortalShape.java",
+          "src/main/resources/data/thepreend_by_whitewolf/dimension/the_pre_end.json",
+          "src/main/resources/assets/thepreend_by_whitewolf/blockstates/the_pre_end_portal.json",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/item/ThePreEndItem.java",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/world/dimension/ThePreEndDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "PreparingForTheEnd",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "preparing_for_the_end",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thepreend_by_whitewolf/advancements/preparing_for_the_end.json"
+        ]
+      }
+    },
+    {
+      "name": "EndFluid",
+      "type": "fluid",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_fluid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thepreendbywhitewolf/block/EndFluidBlock.java",
+          "src/main/resources/assets/thepreend_by_whitewolf/models/block/end_fluid.json",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/fluid/EndFluidFluid.java",
+          "src/main/resources/assets/thepreend_by_whitewolf/models/item/end_fluid_bucket.json",
+          "src/main/resources/assets/thepreend_by_whitewolf/blockstates/end_fluid.json",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/fluid/types/EndFluidFluidType.java",
+          "src/main/java/net/mcreator/thepreendbywhitewolf/item/EndFluidItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.thepreend_by_whitewolf.the_pre_end": "The Pre End Portal Igniter",
+      "advancements.preparing_for_the_end.title": "Preparing For The End?",
+      "fluid.thepreend_by_whitewolf.end_fluid": "End Fluid",
+      "item.testmod_by_whitewolf.the_pre_end": "The Pre End Portal Igniter",
+      "entity.testmod_by_whitewolf.test": "Test",
+      "item.testmod_by_whitewolf.ender_ingot": "Ender Ingot",
+      "item.thepreend_by_whitewolf.test_spawn_egg": "Test Spawn Egg",
+      "item.thepreend_by_whitewolf.end_fluid_bucket": "End Fluid Bucket",
+      "block.thepreend_by_whitewolf.end_fluid": "End Fluid",
+      "block.testmod_by_whitewolf.ender_block": "Ender Block",
+      "entity.thepreend_by_whitewolf.test": "Test",
+      "item.testmod_by_whitewolf.test_spawn_egg": "Test Spawn Egg",
+      "advancements.preparing_for_the_end.descr": "You discovered the new dimension!",
+      "block.thepreend_by_whitewolf.ender_block": "Ender Block",
+      "item.thepreend_by_whitewolf.ender_ingot": "Ender Ingot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thepreend_by_whitewolf",
+    "modName": "The Pre-End",
+    "version": "1.0.0",
+    "description": "New dimension means, new blocks and more to explore!",
+    "author": "WhiteWolf",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.thepreendbywhitewolf",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
