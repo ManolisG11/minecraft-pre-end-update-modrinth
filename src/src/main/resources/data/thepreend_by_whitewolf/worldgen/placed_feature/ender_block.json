@@ -1,0 +1,27 @@
+{
+  "feature": "thepreend_by_whitewolf:ender_block",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 23
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -10
+        },
+        "max_inclusive": {
+          "absolute": 64
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
